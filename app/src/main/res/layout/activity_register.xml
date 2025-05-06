@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_game_neon"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyGameShelf"
+        android:textColor="#00FF00"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="8dp" />
+
+
+    <EditText
+        android:id="@+id/etRegUsername"
+        android:hint="Username"
+        android:textColorHint="#00FF00"
+        android:textColor="#00FF00"
+        android:background="#222222"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etRegPassword"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#00FF00"
+        android:textColor="#00FF00"
+        android:background="#222222"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="#00FF00"
+        android:textColor="#00FF00"
+        android:background="#222222"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="Register"
+        android:textColor="#000000"
+        android:backgroundTint="#00FF00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

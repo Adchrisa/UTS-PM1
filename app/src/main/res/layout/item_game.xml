@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#121212">
+
+    <ImageView
+        android:id="@+id/imgGame"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/game1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txtGameName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Game"
+            android:textColor="#00FF00"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtGameGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre 1 | Genre 2 | Genre 3"
+            android:textColor="#CCCCCC"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</LinearLayout>
